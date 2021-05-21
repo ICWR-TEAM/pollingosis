@@ -67,3 +67,6 @@ Password pemilih/siswa = Tanggal Lahir(hh-bb-tttt)
 # Terimakasih kepada
 
 [ <a href="https://github.com/rezafikkri/">Reza Sariful Fikri</a> ] dan [ <a href="https://github.com/ICWR-TEAM/">ICWR-TEAM</a> ]
+
+<br><br>
+Kontak: 085837173009
