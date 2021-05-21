@@ -61,7 +61,7 @@ Contoh file excel ada di (contoh_excel_massal.xlsx)
 
 ```
 Username pemilih/siswa = NISN
-Password pemilih/siswa = Tanggal Lahir
+Password pemilih/siswa = Tanggal Lahir(hh-bb-tttt)
 ```
 
 # Terimakasih kepada
