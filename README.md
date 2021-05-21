@@ -51,9 +51,18 @@ Website siap digunakan!
 
 <img src="massal.png">
 
+Contoh file excel ada di (contoh_excel_massal.xlsx)
+
 # Demo
 
 <a href="https://www.youtube.com/watch?v=CMwsL03WuAw"><img src="https://img.youtube.com/vi/CMwsL03WuAw/0.jpg" alt="IMAGE ALT TEXT"></a>
+
+# Catatan Lain
+
+```
+Username pemilih/siswa = NISN
+Password pemilih/siswa = Tanggal Lahir
+```
 
 # Terimakasih kepada
 
