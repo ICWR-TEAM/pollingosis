@@ -34,14 +34,14 @@
 [path]/admin
 
 Username default = billy123
-Password default = billy 123
+Password default = billy123
 ```
 
 # Cara Konfigurasi
 
 ```
-1. Buat database dulu dengan nama polling_osis.sql (tutor cek google aja).
-2. Import file yang bernama polling_osis.sql ke phpmyadmin anda.
+1. Buat database dulu dengan nama pemilihan_osis (tutor cek google aja).
+2. Import file yang bernama pemilihan_osis.sql ke phpmyadmin anda.
 3. Setting username,password,host,namadb anda di file application > config > database.php sesuai konfigurasi anda.
 4. Selanjutnya masuk ke halaman admin.
 Website siap digunakan!
