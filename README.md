@@ -1,4 +1,4 @@
-<h1 align="center">Polling Osis</h1>
+<h1 align="center">Votting Osis</h1>
 
 <img src="1.png">
 <br><br>
