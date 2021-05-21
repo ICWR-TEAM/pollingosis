@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 21, 2021 at 11:48 AM
+-- Generation Time: May 21, 2021 at 03:01 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.27
 
@@ -55,13 +55,6 @@ CREATE TABLE `data_calon_pemilih` (
   `coblos_nomor` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `data_calon_pemilih`
---
-
-INSERT INTO `data_calon_pemilih` (`id`, `nama`, `nisn`, `kelas`, `jenkel`, `tgl_lahir`, `set`, `coblos_nomor`) VALUES
-(563, 'dfg', '1212', 'fg', 'Laki-Laki', 'sdf', 'belum hadir', 'belum coblos');
-
 -- --------------------------------------------------------
 
 --
@@ -72,13 +65,6 @@ CREATE TABLE `data_kelas` (
   `id` int(11) NOT NULL,
   `kelas` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `data_kelas`
---
-
-INSERT INTO `data_kelas` (`id`, `kelas`) VALUES
-(38, 'fg');
 
 -- --------------------------------------------------------
 
@@ -98,13 +84,6 @@ CREATE TABLE `data_sekolah` (
   `nip` varchar(255) NOT NULL,
   `tahun_pelajaran` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `data_sekolah`
---
-
-INSERT INTO `data_sekolah` (`id`, `npsn`, `nama_sekolah`, `alamat_sekolah`, `desa_kelurahan`, `kecamatan`, `kota_kabupaten`, `nama_kepsek`, `nip`, `tahun_pelajaran`) VALUES
-(1, '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -141,7 +120,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `atur`) VALUES
-(1, 'berjalan');
+(1, 'tahap_input_data_sekolah');
 
 --
 -- Indexes for dumped tables
@@ -191,7 +170,7 @@ ALTER TABLE `settings`
 -- AUTO_INCREMENT for table `data_calon_osis`
 --
 ALTER TABLE `data_calon_osis`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `data_calon_pemilih`
